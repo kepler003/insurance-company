@@ -1,0 +1,15 @@
+
+.btn {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  min-width: var(--size-5);
+  min-height: var(--size-5);
+  background-color: transparent;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
