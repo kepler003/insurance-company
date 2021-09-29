@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+*:not(svg):not(svg *) {
+  color: var(--text-color);
+}
+
 html {
   font-size: 62.5%;
 }
