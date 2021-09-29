@@ -1,6 +1,14 @@
 
 :root {
 
+  /* Breakpoints */
+  /* xs:  <  576px */
+  /* s:   >= 576px */
+  /* m:   >= 768px */
+  /* l:   >= 992px */
+  /* xl:  >= 1200px */
+  /* xxl: >= 1400px */
+
   /* Colors */
   --primary-1: hsl(218 94% 98%);
   --primary-2: hsl(218 94% 94%);
@@ -49,7 +57,12 @@
   --gray-1: hsl(0 0% 96%);
 
   /* Defined colors */
-  --color-text: var(--gray-7);
+  --primary: var(--primary-5);
+  --danger: var(--danger-5);
+  --success: var(--success-5);
+  --warning: var(--warning-5);
+  --gray: var(--gray-5);
+  --text-color: var(--gray-7);
 
   /* Sizes */
   --size-1: 0.4rem;
