@@ -8,15 +8,22 @@
   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-  <header class="header">
+  <header class="header row">
     <img src="photos/logo.svg" alt="Logo">
-    <button class="header__btn--menu btn">
+    <button class="header__btn--mobile-menu btn btn--icon">
       <svg width="22" height="15" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect width="22" height="3" rx="1.5" fill="currentColor"/>
         <rect y="6" width="22" height="3" rx="1.5" fill="currentColor"/>
         <rect y="12" width="22" height="3" rx="1.5" fill="currentColor"/>
       </svg>
     </button>
+    <nav class="header__nav">
+      <button class="header__btn--nav btn btn--text-primary">Home</button>
+      <button class="header__btn--nav btn">Benefits</button>
+      <button class="header__btn--nav btn">Choose Insurance</button>
+      <button class="header__btn--nav btn">About Us</button>
+      <button class="header__btn--nav btn btn--border-primary">Contact Us</button>
+    </nav>
   </header>
 </body>
 </html>
