@@ -48,6 +48,9 @@
   --gray-2: hsl(0 0% 90%);
   --gray-1: hsl(0 0% 96%);
 
+  /* Defined colors */
+  --color-text: var(--gray-7);
+
   /* Sizes */
   --size-1: 0.4rem;
   --size-2: 0.8rem;
