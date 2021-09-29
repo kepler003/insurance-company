@@ -4,12 +4,47 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  min-width: var(--size-5);
-  min-height: var(--size-5);
+  min-width: var(--size-6);
+  min-height: var(--size-6);
+  padding: var(--size-2) var(--size-3);
   background-color: transparent;
   border: none;
+  border-radius: 2px;
+  transition: 250ms ease-in-out;
 }
 
 .btn:hover {
   cursor: pointer;
+  color: var(--primary);
+}
+
+
+/* Shape */
+
+.btn--icon {
+  padding: var(--size-1);
+}
+
+
+/* Text */
+
+.btn--text-primary {
+  color: var(--primary);
+}
+
+.btn--text-primary:hover {
+  color: var(--text-color);
+}
+
+
+/* Border */
+
+.btn--border-primary {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+
+.btn--border-primary:hover {
+  border-color: var(--text-color);
+  color: var(--text-color);
 }
