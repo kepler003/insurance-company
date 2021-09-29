@@ -1,0 +1,16 @@
+
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 100%;
+  padding: var(--size-4);
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.header__btn--menu {
+  margin-left: auto;
+  color: var(--color-text);
+}
