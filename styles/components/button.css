@@ -26,7 +26,28 @@
 }
 
 
-/* Text */
+/* Background color */
+
+.btn--primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn--primary:hover {
+  background-color: white;
+  color: var(--primary);
+}
+
+.btn--light {
+  background-color: var(--gray-1);
+}
+
+.btn--light:hover {
+  background-color: white;
+}
+
+
+/* Color */
 
 .btn--text-primary {
   color: var(--primary);
