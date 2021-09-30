@@ -1,0 +1,46 @@
+
+.welcome__col {
+  min-width: 100%;
+}
+
+.welcome__heading {
+  margin-top: var(--size-6);
+  font-weight: 700;
+}
+
+.welcome__message {
+  margin-block: var(--size-5);
+}
+
+.welcome__btn {
+  display: inline-block;
+  padding-inline: var(--size-5);
+}
+
+.welcome__btn--more {
+  margin-right: var(--size-3);
+}
+
+.welcome__logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: var(--size-6);
+}
+
+.welcome__logos-heading {
+  width: 100%;
+  font-size: var(--size-3);
+  color: var(--gray-4);
+}
+
+.welcome__logos-img {
+  width: 40%;
+}
+
+@media only screen and (min-width: 576px) {
+
+  .welcome__col {
+    min-width: auto;
+  }
+}
