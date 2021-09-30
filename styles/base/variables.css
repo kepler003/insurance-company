@@ -75,4 +75,12 @@
   --size-8: 6.4rem;
   --size-9: 9.6rem;
   --size-10: 12.8rem;
+
+  /* Spacing */
+  --space-xs:  var(--size-2);
+  --space-s:   var(--size-3);
+  --space:     var(--size-4);
+  --space-l:   var(--size-5);
+  --space-xl:  var(--size-6);
+  --space-xxl: var(--size-9);
 }
