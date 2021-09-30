@@ -7,17 +7,9 @@
   margin: 0 auto;
 }
 
-.container--separated {
-  margin-top: var(--size-7);
-}
-
 @media only screen and (min-width: 576px) {
   
   .container {
     width: calc(100% - var(--size-6) * 2);
-  }
-
-  .container--separated {
-    margin-top: var(--size-9);
   }
 }
