@@ -1,0 +1,25 @@
+
+.row {
+  width: 100%;
+}
+
+.row__inner {
+  width: calc(100% - var(--size-4) * 2);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.row__inner--separated {
+  margin-top: var(--size-7);
+}
+
+@media only screen and (min-width: 576px) {
+  
+  .row__inner {
+    width: calc(100% - var(--size-6) * 2);
+  }
+
+  .row__inner--separated {
+    margin-top: var(--size-9);
+  }
+}
