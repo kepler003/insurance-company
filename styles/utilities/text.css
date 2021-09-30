@@ -3,6 +3,14 @@
   color: var(--primary);
 }
 
-.text--gray {
-  color: var(--gray-4);
+.text--light {
+  color: var(--gray-5);
+}
+
+.text--lighter {
+  color: var(--gray-3);
+}
+
+.text--spaced {
+  line-height: 1.5em;
 }
