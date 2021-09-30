@@ -1,0 +1,8 @@
+
+.text--primary {
+  color: var(--primary);
+}
+
+.text--gray {
+  color: var(--gray-4);
+}
