@@ -1,4 +1,13 @@
 
+/* Shape */
+
+.text--para {
+  color: var(--gray-5);
+  line-height: 1.5em;
+}
+
+/* Colors */
+
 .text--primary {
   color: var(--primary);
 }
