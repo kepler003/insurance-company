@@ -5,15 +5,17 @@
 
 .welcome__heading {
   margin-top: var(--size-6);
-  font-weight: 700;
+  font-size: var(--size-6);
+  font-weight: bold;
 }
 
 .welcome__message {
-  margin-block: var(--size-5);
+  margin-top: var(--size-6);
 }
 
 .welcome__btn {
   display: inline-block;
+  margin-top: var(--size-6);
   padding-inline: var(--size-5);
 }
 
