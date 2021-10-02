@@ -1,5 +1,5 @@
 
-@import 'base/main.css';
-@import 'utilities/main.css';
-@import 'components/main.css';
-@import 'layout/main.css';
+@import 'general/general.css';
+@import 'atoms/atoms.css';
+@import 'molecules/molecules.css';
+@import 'organisms/organisms.css';
