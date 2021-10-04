@@ -25,7 +25,7 @@
 
     <div class="row">
       <article class="welcome row__container">
-        <div class="welcome__col row__col">
+        <div class="welcome__col welcome__col--left row__col">
           <h1 class="welcome__heading">
             <b><span class="text--primary">The Best</span></b> And <br> <b><span class="text--primary">Experienced</span></b><br> Insurance Service<br> In Indonesia
           </h1>
@@ -38,7 +38,17 @@
             <img class="welcome__logos-img" src="photos/chase.png" alt="Chase bank logo">
           </div>
         </div>
-        <div class="welcome__col row__col"></div>
+        <div class="welcome__col row__col">
+          <picture>
+            <source media="(max-width: 767px)" 
+              srcset="phwotos/writing-hor-400w.jpg,
+                      photos/writing-hor-800w.jpg 2x">
+            <source media="(min-width: 768px)"
+              srcset="photos/writing-ver-800w.jpg,
+                      photos/writing-ver-1600w.jpg 2x">
+            <img class="welcome__photo" src="photos/writing-ver-800w.jpg" alt="Writing in documents">
+          </picture>
+        </div>
       </article>
     </div>
   </main>
