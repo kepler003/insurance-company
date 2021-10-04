@@ -5,7 +5,7 @@
 
 .welcome__col--left {
   min-width: auto;
-  max-width: calc(30rem + 35%);
+  max-width: calc(45rem);
   margin-left: auto;
   margin-right: auto;
 }
@@ -23,7 +23,8 @@
 .welcome__btn {
   display: inline-block;
   margin-top: var(--size-6);
-  padding-inline: var(--size-5);
+  padding-left: var(--size-5);
+  padding-right: var(--size-5);
 }
 
 .welcome__btn--more {
@@ -58,6 +59,11 @@
 
   .welcome__col {
     min-width: auto;
+  }
+
+  .welcome__col--left {
+    max-width: none;
+    margin-right: var(--size-4);
   }
 
   .welcome__photo {
