@@ -23,6 +23,8 @@
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  color: inherit;
 }
 
 .icon-hamburger:before {
