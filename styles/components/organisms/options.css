@@ -1,0 +1,12 @@
+
+.options {
+  margin-top: var(--size-8);
+}
+
+.options__message {
+  margin-top: var(--size-5);
+}
+
+.options__btn {
+  margin-top: var(--size-5);
+}
