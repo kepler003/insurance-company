@@ -1,5 +1,6 @@
 
 @import 'general/general.css';
+@import 'utils/utils.css';
 @import 'atoms/atoms.css';
 @import 'molecules/molecules.css';
 @import 'organisms/organisms.css';
