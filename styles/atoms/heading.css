@@ -1,0 +1,55 @@
+
+.heading {
+  font-weight: bold;
+}
+
+.heading--1 {
+  font-size: calc(var(--size-4) * 1.15 * 1.15 * 1.15 * 1.15 * 1.15);
+}
+
+.heading--2 {
+  font-size: calc(var(--size-4) * 1.15 * 1.15 * 1.15 * 1.15);
+}
+
+.heading--3 {
+  font-size: calc(var(--size-4) * 1.15 * 1.15 * 1.15);
+}
+
+.heading--4 {
+  font-size: calc(var(--size-4) * 1.15 * 1.15);
+}
+
+.heading--5 {
+  font-size: calc(var(--size-4) * 1.15);
+}
+
+.heading--6 {
+  font-size: var(--size-4);
+}
+
+@media only screen and (min-width: 992px) {
+
+  .heading--1 {
+    font-size: calc(var(--size-4) * 1.25 * 1.25 * 1.25 * 1.25 * 1.25);
+  }
+
+  .heading--2 {
+    font-size: calc(var(--size-4) * 1.25 * 1.25 * 1.25 * 1.25);
+  }
+
+  .heading--3 {
+    font-size: calc(var(--size-4) * 1.25 * 1.25 * 1.25);
+  }
+
+  .heading--4 {
+    font-size: calc(var(--size-4) * 1.25 * 1.25);
+  }
+
+  .heading--5 {
+    font-size: calc(var(--size-4) * 1.25);
+  }
+
+  .heading--6 {
+    font-size: var(--size-4);
+  }
+}
