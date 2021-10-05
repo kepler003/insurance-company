@@ -1,0 +1,40 @@
+
+.benefits {
+  padding: var(--size-6) var(--size-5);
+  background-color: white;
+  border-radius: 0.2rem;
+  transform: translateY(calc(-1 * var(--size-7)));
+  box-shadow: 0 0.5rem 3.5rem #EEE;
+}
+
+.benefits__card {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-top: var(--size-6);
+}
+
+.benefits__icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--size-7);
+  height: var(--size-7);
+  border-radius: 100%;
+  background-color: white;
+  box-shadow: 0 0.3rem 1.5rem #EEE;
+}
+
+.benefits__icon {
+  width: var(--size-5);
+}
+
+.benefits__subheading {
+  width: calc(100% - var(--size-7) - var(--size-3));
+  margin-left: auto;
+  font-size: var(--size-4);
+}
+
+.benefits__para {
+  margin-top: var(--size-4);
+}
