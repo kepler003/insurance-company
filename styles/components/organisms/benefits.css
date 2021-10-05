@@ -1,5 +1,6 @@
 
 .benefits {
+  margin-bottom: calc(-1 * var(--size-7));
   padding: var(--size-6) var(--size-5);
   background-color: white;
   border-radius: 0.2rem;
@@ -44,6 +45,7 @@
 
   .benefits {
     margin-top: var(--size-9);
+    margin-bottom: 0;
     padding: 0;
     background-color: none;
     box-shadow: none;
