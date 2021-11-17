@@ -97,9 +97,6 @@ body {
 
   .options__cards {
     flex-basis: 45rem;
-  }
-
-  .options__cards {
     margin: 0 0 0 var(--size-7);
   }
 }
