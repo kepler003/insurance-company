@@ -26,3 +26,28 @@ body {
   padding-left: var(--size-6);
   padding-right: var(--size-6);
 }
+
+@media only screen and (max-width: 576px) {
+
+  .options__card {
+    display: grid;
+    grid-template-areas:
+    "icon ."
+    "icon .";
+    align-items: center;
+    grid-gap: var(--size-4) var(--size-5);
+    margin-top: var(--size-5);
+    padding: var(--size-5);
+    box-shadow: 0 5px 15px hsl(0, 0%, 0%, 0.1);
+  }
+
+  .options__card-icon {
+    width: var(--size-8);
+    aspect-ratio: 1;
+    grid-area: icon;
+  }
+
+  .options__card-heading {
+    font-weight: 700;
+  }
+}
