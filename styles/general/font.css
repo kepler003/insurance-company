@@ -22,7 +22,6 @@
 }
 
 *:not(svg):not(svg *) {
-  color: var(--text-color);
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   line-height: 1.35;
 }
