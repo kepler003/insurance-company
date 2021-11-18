@@ -100,3 +100,10 @@ body {
     margin: 0 0 0 var(--size-7);
   }
 }
+
+@media only screen and (min-width: 992px) {
+
+  .options {
+    margin-top: var(--size-9);
+  }
+}
