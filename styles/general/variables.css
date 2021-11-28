@@ -63,6 +63,7 @@
   --warning: var(--warning-5);
   --gray: var(--gray-5);
   --text-color: var(--gray-7);
+  --text-color-light: var(--gray-5);
 
   /* Sizes */
   --size-1: 0.4rem;
