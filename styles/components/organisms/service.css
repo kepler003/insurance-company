@@ -1,6 +1,11 @@
 
 .service {
+  width: 100%;
   margin-top: var(--size-8);
+}
+
+.service__header {
+  margin: 0 var(--size-4);
 }
 
 .service__heading {
@@ -36,4 +41,60 @@
 
 .service__btn {
   min-width: var(--size-10);
+}
+
+.service__photo-box {
+  width: 100%;
+  margin-top: var(--size-5);
+}
+
+.service__photo {
+  width: 100%;
+}
+
+@media only screen and (min-width: 576px) {
+  
+  .service__header {
+    margin: 0 var(--size-6);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .service {
+    padding: 0 var(--size-6);
+  }
+
+  .service__header,
+  .service__photo-box {
+    width: 50%;
+  }
+
+  .service__header {
+    margin: 0;
+  }
+
+  .service__photo-box {
+    margin-top: 0;
+    padding-left: var(--size-5);
+  }
+
+  .service__photo {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  .service {
+    margin-top: var(--size-9);
+  }
+}
+
+@media only screen and (min-width: 1085px) {
+
+  .service {
+    padding: 0;
+  }
 }
