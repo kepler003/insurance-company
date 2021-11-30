@@ -30,12 +30,12 @@
 
 .btn--primary {
   background-color: var(--primary);
-  color: white;
+  color: #fff;
 }
 
 .btn--primary:hover {
-  background-color: white;
-  color: var(--primary);
+  background-color: var(--primary-6);
+  color: #fff;
 }
 
 .btn--light {
@@ -66,6 +66,6 @@
 }
 
 .btn--border-primary:hover {
-  border-color: var(--text-color);
-  color: var(--text-color);
+  background-color: var(--primary);
+  color: #fff;
 }
