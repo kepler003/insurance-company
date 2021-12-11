@@ -42,6 +42,65 @@
   border-bottom-left-radius: 0px;
 }
 
+.plans__cards {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;  
+}
+
+.plans__card {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-top: var(--size-5);
+  padding: var(--size-5);
+  padding-bottom: calc(var(--size-8) + var(--size-4));
+  background-color: #fff;
+  box-shadow: 0px 5px 40px hsla(0, 0%, 0%, .1);
+  position: relative;
+}
+
+.plans__card-icon {
+  height: var(--size-8);
+}
+
+.plans__card-icon svg {
+  height: 100%;
+}
+
+.plans__card-heading {
+  margin-top: var(--size-5);
+  text-align: center;
+}
+
+.plans__card-list {
+  margin-top: var(--size-5);
+  list-style: none;
+}
+
+.plans__card-list li:not(:first-child) {
+  margin-top: 0.5em;
+}
+
+.plans__card-list li::before {
+  display: inline-block;
+  content: '';
+  width: 0.4em;
+  height: 0.4em;
+  margin-right: 0.75em;
+  background-color: var(--primary);
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.plans__card-btn {
+  width: 100%;
+  padding: var(--size-4) 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 
 @media only screen and (min-width: 576px) {
 
@@ -55,5 +114,17 @@
 
   .plans__btns {
     justify-content: flex-end;
+  }
+
+  .plans__cards {
+    flex-direction: row;
+  }
+
+  .plans__card {
+    flex-grow: 1;
+  }
+
+  .plans__card:not(:last-child) {
+    margin-right: var(--size-4);
   }
 }
