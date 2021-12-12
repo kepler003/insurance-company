@@ -5,7 +5,7 @@
   align-items: center;
   width: 100%;
   margin-top: var(--size-8);
-  padding: var(--size-6) var(--size-4);
+  padding: var(--size-7) var(--size-4);
   background-color: var(--primary);
   background: linear-gradient(to bottom right, var(--primary-4), var(--primary-6));
   color: #FFF;
@@ -22,9 +22,57 @@
 
 .newsletter__signup {
   display: flex;
-  margin-top: var(--size-5);
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 40rem;
+  margin-top: var(--size-6);
 }
 
+.newsletter__email {
+  flex-grow: 1;
+  padding: var(--size-2) var(--size-3);
+  background-color: #FFF;
+  border: none;
+  border-top-left-radius: var(--size-1);
+  border-bottom-left-radius: var(--size-1);
+  font-size: 1.6rem;
+}
+
+.newsletter__email::placeholder {
+  color: var(--gray-4);
+}
+
+.newsletter__btn {
+  padding: var(--size-2) var(--size-3);
+  font-size: 1.6rem;
+  background-color: transparent;
+  border: 1px solid #FFF;
+  border-top-right-radius: var(--size-1);
+  border-bottom-right-radius: var(--size-1);
+  color: #FFF;
+  transition: 150ms ease-in-out;
+}
+
+.newsletter__btn:hover {
+  cursor: pointer;
+  background-color: #FFF;
+  color: var(--primary);
+}
+
+
+@media only screen and (max-width: 400px) {
+  
+  .newsletter__email {
+    width: 100%;
+    border-radius: var(--size-1);
+  }
+  
+  .newsletter__btn {
+    margin-top: var(--size-3);
+    border-radius: var(--size-1);
+  }
+}
 
 @media only screen and (min-width: 768px) {
 
