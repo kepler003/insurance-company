@@ -1,0 +1,34 @@
+
+.newsletter {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+  margin-top: var(--size-8);
+  padding: var(--size-6) var(--size-4);
+  background-color: var(--primary);
+  background: linear-gradient(to bottom right, var(--primary-4), var(--primary-6));
+  color: #FFF;
+}
+
+.newsletter__heading {
+  text-align: center;
+}
+
+.newsletter__subheading {
+  margin-top: var(--size-5);
+  text-align: center;
+}
+
+.newsletter__signup {
+  display: flex;
+  margin-top: var(--size-5);
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  .newsletter {
+    margin-top: var(--size-9);
+  }
+}

@@ -69,3 +69,14 @@
   background-color: var(--primary);
   color: #fff;
 }
+
+.btn--border-light {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.btn--border-light:hover {
+  background-color: #fff;
+  color: var(--primary);
+}
